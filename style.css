@@ -205,14 +205,14 @@ nav .profile-area .theme-btn .active{
     color: var(--color-white);
 }
 
-nav .profile-area .header-icon{
+.header-icon{
     display: flex;
     align-items: center;
     cursor: pointer;
     gap: 1rem;
 }
 
-nav .profile-area .header-icon .icon-box{
+.icon-box{
     display: flex;
     width: 2.5rem;
     height: 2.5rem;
@@ -233,6 +233,7 @@ body aside{
     justify-content: space-between;
     padding: 1rem 0;
     background: #27282f;
+    height: 100vh;
 }
 
 body aside button#close-btn{
@@ -322,3 +323,5 @@ body aside .updates span:hover{
     border-radius: 2rem;
     box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.2);
 }
+
+/* =================== MIDDLE ========================= */
